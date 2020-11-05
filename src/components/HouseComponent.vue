@@ -1,7 +1,8 @@
 <template>
-  <div class="house-component col-2 card shadow-lg">
+  <div class="house-component col-3 card shadow-lg">
     <img :src="houseProp.imgUrl" alt="" class="img-fluid">
-    <h2>${{houseProp.price}} Year: {{houseProp.year}}</h2>
+    <h2>${{ houseProp.price }} </h2>
+    <h4>Year: {{ houseProp.year }}</h4>
     <p>{{ houseProp.description }}</p>
   </div>
 

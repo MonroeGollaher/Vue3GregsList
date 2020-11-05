@@ -5,7 +5,7 @@
     </h3>
     <router-link :to="{name: 'ActiveCar' , params: {carId: carProp._id}}">
       <img :src="
-             carProp.imgUrl"
+           carProp.imgUrl"
            alt="car Img"
            class="img-fluid"
       >
